@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+
+    background-color: rgb(247, 247, 247);
+}
+/* shared css */
+.flex{
+    display: flex;
+}
+
+/* navbar-css */
+
+.nav-parent{
+    justify-content: space-around;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav1{
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+}
+.nav2{
+    color: rgb(1, 172, 253);
+    font-weight: 500;
+
+}
+.nav3{
+    color: rgb(5, 212, 223);
+    font-weight: 500;
+}
+.nav4{
+    color: rgb(93, 88, 239);
+    font-weight: 500;
+}
+
+.nav-btn{
+    border-radius: 12px;
+    border: none;
+    background: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* responsive-media */
+
+@media screen and (max-width: 576px) {
+    .menu-bar{
+        display: block;
+    }
+    .nav-item-parent{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .scl{
+        display: none;
+    }
+    .nav-parent{
+        justify-content: space-between;
+    }
+}
