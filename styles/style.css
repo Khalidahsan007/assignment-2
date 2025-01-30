@@ -12,6 +12,7 @@
 body{
 
     background-color: rgb(247, 247, 247);
+    margin: 0;
 }
 /* shared css */
 .flex{
@@ -309,7 +310,6 @@ background: rgb(255, 255, 255);
 
 .view{
     margin-top: 98px;
-    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     
@@ -326,8 +326,61 @@ background: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
     border: none;
+    margin-bottom: 70px;
+}
+
+/* footer realted css */
+footer{
+    background: rgb(1, 172, 253);
+}
+.footer-logo{
+    display: flex;
 }
     
+.foot-head{
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+
+}
+.foot-des{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.foot-link-head{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+.foot-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+   
+}
+.foot-nav-item{
+    list-style: none;
+    
+}
+.social-img{
+    margin-top: 32px;
+    display: flex;
+    gap: 10.15px;
+}
+.social-heading{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+}
+.foot-parent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+  
 
 /* responsive-media */
 
@@ -388,4 +441,61 @@ background: rgb(255, 255, 255);
     .arrow{
         display: none;
     }
+    .small-card{
+        gap: 11px;
+    }
+    .big-card{
+        display: none;
+    }
+    .small-card-style{
+        width: 173.09px;
+        height: 179.59px;
+    }
+    .small-card-img{
+        width: 100%;
+    }
+    .small-blue-btn{
+        margin-top: -18px;
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 9.13px;
+    }
+    .small-green-btn{
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 9.13px;
+        margin-top: -18px;
+    }
+    .small-card-des{
+        font-size: 9.13px;
+        color: rgb(0, 0, 0);
+        line-height: 17.12px;
+    }
+    .view-btn{
+        width: 134px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 12px;
+    }
+    .foot-parent{
+        flex-direction: column;
+        padding: 30px;
+        gap: 10px;
+    }
+    .foot-des{
+        font-size: 16px;
+    }
+    .social-heading{
+        font-size: 22.04px;
+    }
+    .foot-link-head{
+        font-size: 24px;
+    }
+    .foot-link{
+        font-size: 16.96px;
+    }
+    .foot-head{
+        font-size: 35.73px;
+    }
+    
 }
