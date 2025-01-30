@@ -107,7 +107,10 @@ body{
     background-image: url(/assets/bg.png);
 }
 .cur-heading-div{
-    justify-items: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 80px;
     margin-top: 40px;
 }
@@ -189,7 +192,9 @@ body{
 }
 
 .stories-heading-par{
-   justify-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    margin-top: 120px;
    margin-bottom: 80px;
 }
@@ -438,8 +443,9 @@ footer{
         width: 95%;
     }
     .cur-heading-div{
+       
         justify-content: center;
-        justify-items: center;
+        align-items: center;
         margin-top: 40px;
     }
     .cur-heading{
@@ -454,7 +460,8 @@ footer{
     }
     .stories-heading-par{
         justify-content: center;
-        justify-items: center;
+        align-items: center;
+       
     }
     .small-card{
         gap: 11px;
