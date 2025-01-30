@@ -439,6 +439,7 @@ footer{
     }
     .cur-heading-div{
         justify-content: center;
+        justify-items: center;
         margin-top: 40px;
     }
     .cur-heading{
@@ -453,6 +454,7 @@ footer{
     }
     .stories-heading-par{
         justify-content: center;
+        justify-items: center;
     }
     .small-card{
         gap: 11px;
