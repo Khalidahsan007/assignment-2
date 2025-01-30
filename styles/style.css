@@ -199,6 +199,23 @@ body{
 
 .stories-card-parent{
     display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+.big-card{
+    box-sizing: border-box;
+    border: 0.96px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    position: relative;
+    width: 540.27px;
+    height: 630.52px;
+
+background: rgb(255, 255, 255);
+}
+.small-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
 }
 .big-card-des{
     color: rgb(102, 102, 102);
@@ -207,6 +224,7 @@ body{
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 30px;
 }
 .big-card-heading{
     color: rgb(0, 0, 0);
@@ -215,6 +233,67 @@ body{
     line-height: 38.35px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 30px;
+}
+.big-card-img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.big-card-btn{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    width: 174.51px;
+    height: 47.93px;
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+    
+}
+.small-green-btn{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    width: 174.51px;
+    height: 38.35px;
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -25px;
+
+
+
+}
+.small-blue-btn{
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240); 
+    width: 174.51px;
+    height: 38.35px;
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -25px;
+
+
+}
+.small-card-style{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    width: 290.69px;
+    height: 301.61px;
+}
+.small-card-img{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
 }
 .small-card-des{
     color: rgb(0, 0, 0); 
@@ -223,7 +302,32 @@ body{
     line-height: 28.76px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 30px;
+   
+   
 }
+
+.view{
+    margin-top: 98px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.view-btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    width: 197px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+    
 
 /* responsive-media */
 
