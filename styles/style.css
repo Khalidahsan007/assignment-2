@@ -399,6 +399,7 @@ footer{
         display: none;
     }
     .nav-parent{
+        border: 1px solid #FEA301;
         justify-content: space-between;
         padding: 10px;
     }
@@ -437,6 +438,7 @@ footer{
         width: 95%;
     }
     .cur-heading-div{
+        justify-content: center;
         margin-top: 40px;
     }
     .cur-heading{
@@ -444,6 +446,13 @@ footer{
     }
     .arrow{
         display: none;
+    }
+    .stories-head{
+        font-size: 26px;
+
+    }
+    .stories-heading-par{
+        justify-content: center;
     }
     .small-card{
         gap: 11px;
